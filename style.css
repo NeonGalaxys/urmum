@@ -38,4 +38,27 @@ button:active {
     scale: 1;
     transition-duration: 0.2s;
 }
+buttonpatreon{
+    background-color: green;
+    font-family: 'Wix Madefor Display', Arial, Helvetica, sans-serif;
+    border: none;
+    padding: 0.8em 1.8em;
+    font-size: 20px;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+buttonpatreon:hover{
+    background-color: rgb(3, 161, 3);
+    scale: 1.05;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+buttonpatreon:active {
+    scale: 1;
+    transition-duration: 0.2s;
+}
 
